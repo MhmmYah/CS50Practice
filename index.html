@@ -4,6 +4,19 @@
         <title>My title</title>
         <link rel = "stylesheet" type = "css" href = "base.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media (min-width: 500px){
+                h1::before{
+                    content:"Welcome to my webpage!";
+                }
+            }
+
+            @media (max-width: 499px){
+                h1::before{
+                    content:"Welcome!";
+                }
+            }
+        </style>
     </head>
     <body>
         <h1>ASDF</h1>
